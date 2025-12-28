@@ -1,0 +1,17 @@
+{
+  // Khi bấm Save, tự động format code
+  "editor.formatOnSave": true,
+  
+  // Chọn Ruff làm trình format chính
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  
+  // Ruff sẽ kiêm luôn việc sắp xếp import (giống isort)
+  "ruff.organizeImports": true,
+  
+  // Kích hoạt Pylance mức độ cao để bắt lỗi Type strict hơn
+  "python.analysis.typeCheckingMode": "basic" 
+
+  
+}

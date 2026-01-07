@@ -11,7 +11,7 @@ class UserCreate(UserBase):
 
 
 class UserResponse(UserBase):
-    user_id : Annotated[str,Field(title="user_id")]
+    user_id : Annotated[int,Field(title="user_id")]
 
 class UserUpdate(UserBase):
     password : str
